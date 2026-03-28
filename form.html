@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SignIn/SignUp</title>
+  <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+
+<div class="container" id="container">
+
+  <!-- SIGN UP -->
+  <div class="form-container sign-up-container">
+    <form>
+      <h1>Create Account</h1>
+      <input type="text" class="placeh" placeholder="Name" />
+      <input type="email" class="placeh" placeholder="Email" />
+      <input type="password" class="placeh" placeholder="Password" />
+      <button class="buttonn">Sign Up</button>
+    </form>
+  </div>
+
+  <!-- SIGN IN -->
+  <div class="form-container sign-in-container">
+    <form>
+      <h1>Welcome</h1>
+      <input type="email" class="placeh" placeholder="Email" />
+      <input type="password" class="placeh" placeholder="Password" />
+      <a href="#" class="forgot-password">Forgot password?</a>
+      <button class="buttonn">Sign In</button>
+    </form>
+  </div>
+
+  <!-- OVERLAY -->
+  <div class="overlay-container">
+    <div class="overlay">
+
+      <div class="overlay-panel overlay-left">
+        <h2>Already have an account?</h2>
+        <button class="ghost" id="signIn">Sign In</button>
+      </div>
+
+      <div class="overlay-panel overlay-right">
+        <h2>Don't have an account?</h2>
+        <button class="ghost" id="signUp">Sign Up</button>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="scriptform.js"></script>
+</body>
+</html>
